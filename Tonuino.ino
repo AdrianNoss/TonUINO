@@ -450,7 +450,9 @@ void setup() {
     }
   */
   // Start Shortcut "at Startup" - e.g. Welcome Sound
-  playShortCut(3);
+  //playShortCut(3);
+  // Spiele Begrüssung MP3 (Title 998)
+ mp3.playMp3FolderTrack(998);  
 }
 
 void readButtons() {
